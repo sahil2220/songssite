@@ -1,0 +1,78 @@
+h1 {
+    color: white;
+    margin-right: 200px;
+
+    font-family: cursive;
+    
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color:blanchedalmond;
+}
+
+/* * {
+    border: solid;
+} */
+
+.item{
+    position:relative
+
+}
+
+.item p{
+    position:absolute;
+    opacity:1;
+    color: red;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+.item:hover p{
+    opacity:1; 
+    font-size: 20px;
+    font-family:cursive;
+    color: red;
+}
+
+.item:hover img{
+    opacity:0.2
+    
+}
+
+.header{
+    background-color: rgb(124, 218, 221);
+    display: flex;
+    margin-left: '500px';
+    justify-content: space-between;
+}
+
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.end{
+    font-size: 20px;
+    color: black;
+    
+   
+}
+
+p,h2{
+    text-align: center;
+}
+
